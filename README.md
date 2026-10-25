@@ -18,13 +18,20 @@
 
 ## 📌 Overview
 
-Password Strength Analyzer
+
+OStrength is a professional password-strength analyzer that scores passwords using Shannon entropy and charset analysis while detecting sequential, repeat and keyboard patterns. It normalizes leetspeak, checks against a 500+ common-password list, and estimates crack time for both online and offline GPU attacks. A built-in generator, batch mode and export to TXT/JSON/CSV/HTML round out the desktop application.
 
 ---
 
 ## ✨ Features
 
-- Password strength analyzer: Shannon entropy, pattern detection, crack-time estimates (local only)
+
+- Shannon-entropy and charset-size analysis with a live, colour-coded strength meter
+- Sequential, repeat and keyboard-pattern detection plus leetspeak normalization
+- Extended common-password wordlist (500+) for dictionary checks
+- Crack-time estimates for online and offline GPU attack scenarios
+- Configurable password generator and batch (multi-line) analysis mode
+- Export results as TXT, JSON, CSV or HTML; configurable minimum length (8-32)
 
 ---
 
@@ -37,8 +44,11 @@ Password Strength Analyzer
 
 ## 🚀 Usage
 
+
 ```bash
 ./OStrength
+./OStrength --self-test
+./OStrength --help
 ```
 
 ---
